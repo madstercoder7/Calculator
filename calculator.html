@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
+    <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider"></span>
+    </label>
     <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="buttons">
@@ -22,7 +26,7 @@
             <button onclick="appendValue('5')">5</button>
             <button onclick="appendValue('6')">6</button>
             <button onclick="appendValue('+')">+</button>
-            <button onclick="appendValue('2')">1</button>
+            <button onclick="appendValue('1')">1</button>
             <button onclick="appendValue('2')">2</button>
             <button onclick="appendValue('3')">3</button>
             <button onclick="calculate()">=</button>
