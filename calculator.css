@@ -126,3 +126,9 @@ button.dark-mode {
 button.dark-mode:hover {
     background-color: #666666;
 }
+
+button:nth-child(16).dark-mode {
+    grid-column: span 2;
+    background-color: #0078c3;
+    color: #fff;
+}
